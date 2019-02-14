@@ -1,0 +1,24 @@
+{
+    "name": "arhone/stemmer",
+    "description": "Позволяет организовать нечёткое сравнение слов, преобразуя полные слова в их основы (PHP 7)",
+    "homepage": "https://github.com/arhone/stemmer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Алексей Арх",
+            "email": "info@arh.one"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "arhone\\stemmer\\": "source/"
+        },
+        "classmap": ["source/"]
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "ext-mbstring": "*"
+    }
+}
